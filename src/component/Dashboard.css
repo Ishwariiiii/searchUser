@@ -1,0 +1,60 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* height: 100vh; */
+  background-color: rgb(145, 148, 163);
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  margin-top: 20px;
+  width: 50%;
+}
+
+thead th {
+  text-align: center;
+}
+
+tbody td {
+  text-align: center;
+}
+
+.editBtn {
+  background-color: rgb(79, 146, 79);
+  height: 30px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.editBtn:hover{
+  background-color:green ;
+}
+.saveBtn{
+  background-color: rgb(145, 175, 86);
+  height: 30px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.saveBtn.hover{
+  background-color: yellowgreen;
+}
+.cancelBtn{
+  background-color: rgb(192, 91, 51);
+  height: 30px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.cancelBtn:hover{
+  background-color:rgb(184, 73, 33) ;
+}
